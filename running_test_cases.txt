@@ -1,0 +1,3 @@
+- If I want to run the tests for just one of the test suites, I just have to run the command jest <test_suite_name>/test.js --watch
+
+- If I encounter an error, simply run the command as jest fib --watch

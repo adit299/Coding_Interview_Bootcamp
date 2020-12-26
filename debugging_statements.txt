@@ -1,0 +1,16 @@
+- Placing the statement "debugger;" anywhere in the code will cause the code execution to stop, exactly on the line where the debugger statement was placed
+
+- We can then inspect any of the variables that we encountered before that line
+
+- After placing that debugger line we can run the following command: "node inspect <filename>.js"
+
+- The file will be executed line by line, so typing in the command "cont" or "c", will allow us to move on to the next line of code
+
+- To actually inspect any particular variable, we have to enter "REPL" mode, so we type the command "repl" into the debugger mode, and we can then
+type in the name of the particular variable we are looking for
+
+- We can also type in entire statements to see what value we are returned
+
+- Ctrl + C to exit out of REPL and go back to debugger mode, another CTRL+C will exit out of the debugger mode
+
+- NOTE: In order for the debugger to work, we need a manual function call present in our file, otherwise the debugger will not work
